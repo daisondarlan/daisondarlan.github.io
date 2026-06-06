@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Candidate in Artificial Intelligence, Kyungpook National University
 
 profile:
   align: right
@@ -27,10 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD candidate in Artificial Intelligence at Kyungpook National University, working at the intersection of adaptive optimization, reinforcement learning, computer vision, and NeuroAI.
+I work on adaptive intelligent systems: how they learn, make decisions, and remain useful when the world is uncertain, constrained, or simply unwilling to behave nicely. My research brings together multi-objective evolutionary optimization, reinforcement learning, computer vision, and neuro-inspired modelling. Much of my recent work focuses on autonomous planning and adaptive search, especially in settings where an agent must balance competing objectives rather than optimize a single notion of success.
 
-My research asks how intelligent systems can adapt under uncertainty, competing objectives, and changing environments. I approach this through multi-objective evolutionary optimization, reinforcement learning, and biologically inspired models of learning, memory, and regulation.
+More broadly, I am interested in the bridge between artificial and natural intelligence. I want to understand what biological systems can teach us about building more robust and efficient AI, and what artificial systems can offer as computational models for studying adaptive behaviour.
 
-More broadly, I am interested in how ideas from natural intelligence can help us build artificial systems that are not only more capable, but also more robust, efficient, and interpretable.
-
-I am always happy to hear from researchers, students, or collaborators working on related problems. If I am not in the lab, there is a non-zero chance I am somewhere near a lake.
+I am always happy to hear from researchers, students, or collaborators working on related problems. If I am not in the lab, there is a non-zero chance I am somewhere near a lake 🙂.
