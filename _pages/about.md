@@ -6,7 +6,7 @@ subtitle: PhD Candidate in Artificial Intelligence, Kyungpook National Universit
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: web_prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>555 your office number</p>
@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I work on adaptive intelligent systems: how they learn, make decisions, and remain useful when the world is uncertain, constrained, or simply unwilling to behave nicely. My research brings together multi-objective evolutionary optimization, reinforcement learning, computer vision, and neuro-inspired modelling. Much of my recent work focuses on autonomous planning and adaptive search, especially in settings where an agent must balance competing objectives rather than optimize a single notion of success.
+I am a PhD candidate in Artificial Intelligence at Kyungpook National University, where I work on adaptive intelligent systems across optimization, reinforcement learning, computer vision, and NeuroAI. 
 
-More broadly, I am interested in the bridge between artificial and natural intelligence. I want to understand what biological systems can teach us about building more robust and efficient AI, and what artificial systems can offer as computational models for studying adaptive behaviour.
+A lot of my research is driven by a simple question: how do intelligent systems learn to adapt when the world is uncertain, constrained, and full of competing priorities? I study this through multi-objective evolutionary optimization, autonomous planning, and biologically inspired models of learning, memory, and regulation.
 
-I am always happy to hear from researchers, students, or collaborators working on related problems. If I am not in the lab, there is a non-zero chance I am somewhere near a lake 🙂.
+More broadly, I am interested in the space between artificial and natural intelligence. I like thinking about what biological systems can teach us about building better machines, and what artificial systems can reveal about learning, behaviour, and perhaps even ourselves.
+
+Outside the lab, I enjoy quiet places, good conversations, and the occasional attempt to convince myself that walking by a lake counts as productive thinking. Feel free to reach out if you would like to talk about research, collaboration, or interesting ideas.
