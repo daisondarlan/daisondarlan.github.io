@@ -1,11 +1,36 @@
-github_users:
-
-repo_description_lines_max: 2
-
 github_repos:
-  - daisondarlan/UAV-Path-Planning-Benchmark
-  - daisondarlan/RLXBench
-  - daisondarlan/Lightweight-Webcam-Eye-Tracking
-  - daisondarlan/Heuristic-Driven-Evolutionary-UAV-Path-Planning
-  - daisondarlan/HCP-fMRI-Domain-Adversarial-Classification
-  - daisondarlan/Preprocessor-for-Computational-Fluid-Dynamics
+  - name: UAV Path Planning Benchmark
+    repository: daisondarlan/UAV-Path-Planning-Benchmark
+    url: https://github.com/daisondarlan/UAV-Path-Planning-Benchmark
+    description: Source code for a multi-objective UAV path-planning benchmark with synthetic environments and baseline evolutionary optimization results.
+    tags: [MATLAB, UAV path planning, multi-objective optimization]
+
+  - name: RLXBench
+    repository: daisondarlan/RLXBench
+    url: https://github.com/daisondarlan/RLXBench
+    description: Benchmarking and experimentation code for reinforcement learning research workflows.
+    tags: [reinforcement learning, benchmark, experiments]
+
+  - name: Lightweight Webcam Eye Tracking
+    repository: daisondarlan/Lightweight-Webcam-Eye-Tracking
+    url: https://github.com/daisondarlan/Lightweight-Webcam-Eye-Tracking
+    description: Webcam-only eye tracking using dense facial landmarks and lightweight regressors with fast calibration and testing.
+    tags: [computer vision, eye tracking, webcam]
+
+  - name: Heuristic-Driven Evolutionary UAV Path Planning
+    repository: daisondarlan/Heuristic-Driven-Evolutionary-UAV-Path-Planning
+    url: https://github.com/daisondarlan/Heuristic-Driven-Evolutionary-UAV-Path-Planning
+    description: MATLAB implementation of a domain-specific evolutionary algorithm for multi-objective UAV path planning.
+    tags: [MATLAB, evolutionary algorithms, UAV path planning]
+
+  - name: HCP fMRI Domain-Adversarial Classification
+    repository: daisondarlan/HCP-fMRI-Domain-Adversarial-Classification
+    url: https://github.com/daisondarlan/HCP-fMRI-Domain-Adversarial-Classification
+    description: PyTorch implementation of domain-adversarial neural networks for face-versus-shape classification on HCP fMRI data.
+    tags: [PyTorch, fMRI, domain adaptation]
+
+  - name: Preprocessor for Computational Fluid Dynamics
+    repository: daisondarlan/Preprocessor-for-Computational-Fluid-Dynamics
+    url: https://github.com/daisondarlan/Preprocessor-for-Computational-Fluid-Dynamics
+    description: Preprocessing utilities for computational fluid dynamics workflows and simulation setup.
+    tags: [CFD, preprocessing, simulation]
