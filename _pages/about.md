@@ -27,8 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD candidate in Artificial Intelligence at Kyungpook National University, working at the intersection of adaptive optimization, reinforcement learning, computer vision, and NeuroAI.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research asks how intelligent systems can adapt under uncertainty, competing objectives, and changing environments. I approach this through multi-objective evolutionary optimization, reinforcement learning, and biologically inspired models of learning, memory, and regulation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+More broadly, I am interested in how ideas from natural intelligence can help us build artificial systems that are not only more capable, but also more robust, efficient, and interpretable.
+
+I am always happy to hear from researchers, students, or collaborators working on related problems. If I am not in the lab, there is a non-zero chance I am somewhere near a lake.
