@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - daisondarlan/UAV-Path-Planning-Benchmark
+  - daisondarlan/RLXBench
+  - daisondarlan/Lightweight-Webcam-Eye-Tracking
+  - daisondarlan/Heuristic-Driven-Evolutionary-UAV-Path-Planning
+  - daisondarlan/HCP-fMRI-Domain-Adversarial-Classification
+  - daisondarlan/Preprocessor-for-Computational-Fluid-Dynamics
