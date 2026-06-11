@@ -137,6 +137,65 @@ cv:
         url: https://doi.org/10.1016/j.swevo.2025.102267
         summary: First-author journal article on domain-specific evolutionary search for UAV path planning.
 
+      - title: "A3FUS-Net: Towards automated Renal Cell Carcinoma grading system via advanced adaptive attention mechanism aided deep learning fusion"
+        authors:
+          - Shreyan Kundu
+          - Souradeep Mukhopadhyay
+          - Semanti Das
+          - Biswadip Basu Mallik
+          - Daison Darlan
+          - Rammohan Mallipeddi
+        publisher: Computers and Electrical Engineering
+        releaseDate: 2026
+        url: https://doi.org/10.1016/j.compeleceng.2026.111193
+        summary: Journal article on adaptive attention-based deep learning fusion for automated renal cell carcinoma grading.
+
+      - title: Dynamic hand exercise recognition for game-based finger rehabilitation
+        authors:
+          - Oladayo S Ajani
+          - Daison Darlan
+          - Esther Aboyeji
+          - Kalyana C Veluvolu
+          - Rammohan Mallipeddi
+        publisher: Scientific Reports
+        releaseDate: 2026
+        url: https://doi.org/10.1038/s41598-026-42693-8
+        summary: Journal article on dynamic hand exercise recognition for rehabilitation-oriented interactive systems.
+
+      - title: Is negative correlation learning a solution for cross domain colon polyp segmentation?
+        authors:
+          - Shreyan Kundu
+          - Souradeep Mukhopadhyay
+          - Daison Darlan
+          - Rammohan Mallipeddi
+        publisher: Eighteenth International Conference on Machine Vision (ICMV 2025)
+        releaseDate: 2026
+        url: https://doi.org/10.1117/12.3097282
+        summary: Conference paper on cross-domain colon polyp segmentation using negative correlation learning.
+
+      - title: Multi-Objective Optimization of Large Language Model Summaries for Clinical Text Narratives
+        authors:
+          - Deepika Verma
+          - Daison Darlan
+          - Rammohan Mallipeddi
+        publisher: IEEE Access
+        releaseDate: 2026
+        url: https://doi.org/10.1109/access.2026.3656535
+        summary: Journal article on multi-objective optimization of LLM-generated clinical text summaries.
+
+      - title: Lightweight webcam-based eye tracking system for large display screens
+        authors:
+          - Ivan Fenyom
+          - Adeyinka Adedigba
+          - Daison Darlan
+          - Oladayo S Ajani
+          - Rammohan Mallipeddi
+          - Hwang Jae Joon
+        publisher: Multimedia Tools and Applications
+        releaseDate: 2026
+        url: https://doi.org/10.1007/s11042-026-21208-7
+        summary: Journal article on a lightweight webcam-based eye tracking system for large display interaction.
+
       - title: A multi-objective benchmark for UAV path planning with baseline results
         authors:
           - Daison Darlan
@@ -162,6 +221,109 @@ cv:
         url: https://doi.org/10.1038/s41598-025-97168-z
         summary: First-author applied AI work for growth-stage classification in smart agriculture.
 
+      - title: Prediction-guided multi-objective reinforcement learning with corner solution search
+        authors:
+          - Oladayo S Ajani
+          - Ivan Fenyom
+          - Daison Darlan
+          - Rammohan Mallipeddi
+        publisher: Computers and Electrical Engineering
+        releaseDate: 2025
+        url: https://doi.org/10.1016/j.compeleceng.2024.109964
+        summary: Journal article on prediction-guided multi-objective reinforcement learning and corner solution search.
+
+      - title: Progressive Vocabulary Learning via Pareto-Optimal Clustering
+        authors:
+          - Deepika Verma
+          - Daison Darlan
+          - Rammohan Mallipeddi
+        publisher: 2025 16th International Conference on Information and Communication Technology Convergence (ICTC)
+        releaseDate: 2025
+        url: https://doi.org/10.1109/ictc66702.2025.11387959
+        summary: Conference paper on Pareto-optimal clustering for progressive vocabulary learning.
+
+      - title: "AURA-Net: Adaptive Uncertainty-Weighted Ranking and Attention-Driven Network for Generalized Colon Polyp Segmentation"
+        authors:
+          - Shreyan Kundu
+          - Souradeep Mukhopadhyay
+          - Daison Darlan
+          - Rammohan Mallipeddi
+        publisher: Pacific Rim International Conference on Artificial Intelligence
+        releaseDate: 2025
+        url: https://doi.org/10.1007/978-981-95-7084-3_2
+        summary: Conference paper on uncertainty-weighted ranking and attention for generalized colon polyp segmentation.
+
+      - title: "Deep reinforcement learning as multiobjective optimization benchmarks: Problem formulation and performance assessment"
+        authors:
+          - Oladayo S Ajani
+          - Dzeuban Fenyom Ivan
+          - Daison Darlan
+          - Ponnuthurai N Suganthan
+          - Kaizhou Gao
+          - Rammohan Mallipeddi
+        publisher: Swarm and Evolutionary Computation
+        releaseDate: 2024
+        url: https://doi.org/10.1016/j.swevo.2024.101692
+        summary: Journal article formulating deep reinforcement learning tasks as multi-objective optimization benchmarks.
+
+      - title: Multi-indicator based multi-objective evolutionary algorithm with application to neural architecture search
+        authors:
+          - Oladayo S Ajani
+          - Daison Darlan
+          - Dzeuban Fenyom Ivan
+          - Rammohan Mallipeddi
+        publisher: International Journal of Machine Learning and Cybernetics
+        releaseDate: 2024
+        url: https://doi.org/10.1007/s13042-024-02300-6
+        summary: Journal article on multi-indicator multi-objective evolutionary optimization for neural architecture search.
+
+      - title: Priority-Encoder Ensemble for Speech Recognition
+        authors:
+          - Dzeuban Fenyom Ivan
+          - Daison Darlan
+          - Adeyinka Adedigba
+          - Oladayo S Ajani
+          - Rammohan Mallipeddi
+          - Hwang Jae Joo
+        publisher: IEEE Access
+        releaseDate: 2024
+        url: https://doi.org/10.1109/access.2024.3454221
+        summary: Journal article on priority-encoder ensembles for speech recognition.
+
+      - title: EEG-Based Emotion Classification Through Multi-Objective Hyperparameter Search
+        authors:
+          - Vaishnavi Vats
+          - Ivan Fenyom
+          - Oladayo S Ajani
+          - Daison Darlan
+          - Rammohan Mallipeddi
+        publisher: Lecture Notes on Data Engineering and Communications Technologies
+        releaseDate: 2024
+        url: https://doi.org/10.1007/978-981-96-0451-7_28
+        summary: Publication on EEG-based emotion classification using multi-objective hyperparameter search.
+
+      - title: Benchmarking Covariance Matrix Evolution Strategies on Autonomous Parking Navigation
+        authors:
+          - Esther Aboyeji
+          - Daison Darlan
+          - Oladayo Solomon Ajani
+          - Rammohan Mallipeddi
+        publisher: Lecture Notes on Data Engineering and Communications Technologies
+        releaseDate: 2024
+        url: https://doi.org/10.1007/978-981-96-0451-7_2
+        summary: Publication benchmarking covariance matrix evolution strategies for autonomous parking navigation.
+
+      - title: Animal feed optimization under price fluctuations using evolutionary algorithms
+        authors:
+          - Member Joy Usigbe
+          - Daison Darlan
+          - Daniel Dooyum Uyeh
+          - Rammohan Mallipeddi
+        publisher: 2023 14th International Conference on Information and Communication Technology Convergence (ICTC)
+        releaseDate: 2023
+        url: https://doi.org/10.1109/ictc58733.2023.10393678
+        summary: Conference paper on evolutionary optimization for animal feed formulation under price fluctuations.
+
       - title: Recognizing social touch gestures using optimized class-weighted CNN-LSTM networks
         authors:
           - Daison Darlan
@@ -172,6 +334,16 @@ cv:
         releaseDate: 2023
         url: https://doi.org/10.1109/RO-MAN57019.2023.10309595
         summary: First-author work on optimized deep learning models for social touch gesture recognition.
+
+      - title: Lunar Landing Site Selection using Machine Learning
+        authors:
+          - Daison Darlan
+          - Oladayo S Ajani
+          - Rammohan Mallipeddi
+        publisher: 2023 International Conference on Machine Intelligence for GeoAnalytics and Remote Sensing (MIGARS)
+        releaseDate: 2023
+        url: https://doi.org/10.1109/migars57353.2023.10064571
+        summary: Conference paper on machine learning methods for lunar landing site selection.
 
     Patents:
       - label: "2023"

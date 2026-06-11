@@ -5,6 +5,24 @@
   preserving the order defined in _data/cv.yml.
 {% endcomment %}
 
+<style>
+  @media (min-width: 992px) {
+    main .container.mt-5:has(.cv) {
+      max-width: 1120px;
+    }
+
+    main .container.mt-5:has(.cv) > .row > .col-sm-3 {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+
+    main .container.mt-5:has(.cv) > .row > .col-sm-9 {
+      flex: 0 0 80%;
+      max-width: 80%;
+    }
+  }
+</style>
+
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
