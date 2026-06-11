@@ -1,0 +1,388 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage{standalone}
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\setlist[itemize]{leftmargin=3cm}
+
+
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%\usepackage[utf8]{inputenc}
+\definecolor{theme1}{HTML}{77519b}
+\definecolor{theme2}{HTML}{58844d}
+%\usepackage{booktabs}
+\usepackage{fontawesome}
+\usepackage{marvosym} % For cool symbols.
+%\usepackage{hyperref}
+%\usepackage[dvipsnames]{xcolor}
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Daison} % Your first name
+\familyname{Darlan} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{PhD Candidate in Artificial Intelligence}
+\address{Department of Artificial Intelligence}{Kyungpook National University,\\ 80 Daehakro, Bukgu, Daegu 41566 \\South Korea.\\}
+\mobile{(+82) 010-6710-1302}
+\email{darlan.daison@knu.ac.kr}
+\extrainfo{\faGithub\ \href{https://github.com/daisondarlan}{Code Repository}}
+
+%----------------------------------------------------------------------------------------
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }%
+}
+
+
+
+\usepackage{multibbl}
+\newcommand\Colorhref[3][orange]{\href{#2}{\small\color{#1}#3}}
+
+
+% \newcommand{\cvreference}[7]{%
+%     \textbf{#1}\newline% Name
+%     \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+%     \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+%     \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+%     \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+%     \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+%     \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+\pagestyle{plain}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[r]{\color{color2}\addressfont\itshape\thepage/\pageref{lastpage}}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\section{Research Profile}
+\cv{Modern AI has advanced rapidly, but still lacks the robustness and computational efficiency of biological intelligence. My work asks how this gap can be narrowed: what principles from biological learning can help artificial systems adapt, generalize, and remain stable under dynamic conditions? I approach this question by treating intelligence as an interaction between learning, memory, and regulation, not as task performance alone. Methodologically, I use reinforcement learning to model adaptive behavior, multi-objective optimization to study decision-making under competing goals, and neuro-inspired mechanisms to examine how artificial systems can regulate behavior and draw on prior experience. Together, these methods allow me to treat artificial systems not only as engineering tools for building more adaptive AI, but also as scientific models for probing the computational principles of biological intelligence.
+
+This trajectory has shaped a research profile spanning optimization, NeuroAI, and applied intelligent systems, supported by first-author and collaborative publications across these areas. Beyond publications, I have contributed to government-funded research, technology transfer through patents and industry-facing projects, and academic service through peer review and mentoring.}
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Interests}
+NeuroAI | algorithms in nature | adaptive optimization | reinforcement learning | autonomous intelligent systems
+
+\section{Education}
+
+\cventry{2022--2026}
+{Integrated MS--PhD in Artificial Intelligence}
+{Kyungpook National University}
+{Daegu, South Korea}
+{}
+{\textbf{Training focus:} Developed a research foundation in artificial intelligence centered on optimization, reinforcement learning, and computer vision, while shaping a broader direction toward adaptive and neuro-inspired intelligent systems.\\
+\textbf{Status:} Thesis successfully defended; degree conferral expected in August 2026.\\
+\textbf{GPA:} 4.18/4.3\\}
+
+\cventry{2017--2021}
+{B.Tech. in Aerospace Engineering}
+{Amity University}
+{India}
+{}
+{\textbf{Training focus:} Trained in mathematical modeling, simulation, and engineering design, with emphasis on aerodynamics, computational analysis, and nature-inspired principles of efficient motion and stability.\\
+\textbf{GPA:} 8.795/10}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research Experience}
+
+\cventry{03/2022--08/2026}
+{\textbf{PhD Research Fellow}, Evolutionary Computation and Intelligent Systems Lab, Kyungpook National University}
+{Daegu, South Korea}
+{Supervisor: Prof. Rammohan Mallipeddi}
+{}
+{Funded through the Kyungpook National University Kings Scholarship and National Research Foundation (NRF), Korea.}
+\begin{itemize}
+   \vspace{-0.3cm}\item Defined and developed a doctoral research direction on adaptive optimization for complex decision-making, focusing on how search processes can regulate behavior, reuse prior experience, and remain effective under competing objectives and constraints.
+   \vspace{-0.2cm}\item Designed neuro-inspired algorithmic mechanisms that integrate regulation, memory reuse, and domain knowledge into evolutionary search, with applications to autonomous planning and multi-objective decision-making.
+   % \vspace{-0.2cm}\item Contributed to funded interdisciplinary projects, mentored junior collaborators, and supported research translation through technology transfer and patent-related outputs.
+\end{itemize}
+
+\cventry{03/2026--08/2026}
+{\textbf{Researcher}, Ethical Stress Testing and Retrofit (E-STAR) for Autonomous Vehicles}
+{}
+{}
+{}
+{Funded by National Research Foundation (NRF), Korea.}
+\begin{itemize}
+   \vspace{-0.3cm}\item Addressed the challenge of testing autonomous vehicles under rare, uncertain, and safety-critical driving scenarios. Co-developed the funded NRF proposal and designed a framework using counterfactual scenario generation and evolutionary optimization to expose decision-making failures under real-world distribution shifts.
+\end{itemize}
+
+\cventry{09/2025--03/2026}
+{\textbf{Researcher}, Powerful Brain Project}
+{}
+{}
+{}
+{Funded by MSIT, Daegu Digital Innovation Promotion Agency (DIP), and National Information Society Agency (NIA), Korea.}
+\begin{itemize}
+   \vspace{-0.3cm}\item Explored how brain-derived feedback can inform computational models of reasoning and decision-making. Developed biologically guided reinforcement learning and post-training ideas aimed at improving adaptability, alignment, and efficiency in large language models.
+\end{itemize}
+
+\cventry{04/2025--07/2025}
+{\textbf{Researcher}, Domain-Adversarial Neural Network for HCP Face/Shape Classification}
+{}
+{}
+{}
+{Funded by the NRF Core Research Institute Basic Science Program, Ministry of Education, Korea (2021R1A6A1A03043144).}
+\begin{itemize}
+   \vspace{-0.3cm}\item Addressed cross-subject variability in fMRI-based face/shape classification, where individual neural differences can weaken model generalization. Designed a lightweight domain-adaptive model that aligned subject-specific feature distributions while preserving task-relevant neural information.
+   \vspace{-0.2cm}\item Achieved 96.62\% test accuracy while outperforming heavier 3-D CNN and Transformer baselines with substantially lower computational cost.
+\end{itemize}
+
+\cventry{06/2023--06/2024}
+{\textbf{Researcher}, Development of Inclusive Unmanned Kiosk for Document Issuance Machine}
+{}
+{}
+{}
+{Funded through the Institute of Information \& Communications Technology Planning \& Evaluation (IITP), Korea government (MSIT), No.\ RS2023-00262841.}
+\begin{itemize}
+   \vspace{-0.3cm}\item Addressed accessibility barriers in unmanned public-service kiosks by developing lightweight AI modules for gaze, gesture, speech, and demographic analysis. These modules supported more inclusive interaction on low-resource computational systems.
+   \vspace{-0.2cm}\item Contributed to technology transfer, patent claims, KAIC certification, and journal publications arising from the project.
+\end{itemize}
+
+\cventry{09/2023--12/2023}
+{\textbf{Researcher}, Development of a Circulating, Single-drop Nutrient Solution and Cloud Control Platform Using AI-based Strawberry Growth Stage Recognition}
+{}
+{}
+{}
+{Funded by the Digital Innovation Hub (DIP, MSIT \& Daegu City, 2023, DBSD2-01) and the National Information Society Agency (NIA, MSIT, 2022-3-030).}
+\begin{itemize}
+   \vspace{-0.3cm}\item Addressed the need for automated crop monitoring in smart greenhouses by building a strawberry growth-stage dataset and benchmarking deep learning models across seven developmental stages. The system supported stage-aware precision nutrient management through visual growth recognition.
+\end{itemize}
+
+% \cventry{07/2023--12/2023}
+% {\textbf{Researcher}, AI Golf Coach: Enhancing Golf Swing through Pose Analysis}
+% {}
+% {}
+% {}
+% {Funded by National Research Foundation (NRF) of Korea, Proof of Concept Grant.}
+% \begin{itemize}
+%    \vspace{-0.3cm}\item Addressed the challenge of automated golf swing assessment from limited labeled motion data. Developed semi-supervised pose estimation and classification models to analyze swing movement patterns, contributing to a proof-of-concept system that led to technology transfer.
+% \end{itemize}
+
+\cventry{01/2023--10/2023}
+{\textbf{Researcher}, A Real-time Warning System Using Deep Learning-based Vehicle Identification and Tracking Technology to Prevent Traffic Accidents}
+{}
+{}
+{}
+{Funded through Daegu Techno Park (DGTP) 2023 Regional Innovation Centered University Research Activity Support Project.}
+\begin{itemize}
+   \vspace{-0.3cm}\item Addressed real-time vehicle identification and tracking for CCTV-based accident-prevention systems. Developed semi-supervised vehicle tracking and re-identification models using synthetic data to reduce annotation dependence, supporting technology transfer and patent publication.
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Selected Research Outputs ({\textcolor{theme1}{\href{https://scholar.google.com/citations?user=h_TVJTIAAAAJ&hl=en} {\textit{Google Scholar}}}})}
+
+My research outputs reflect three connected strands: adaptive optimization for complex decision-making, biologically inspired approaches to artificial intelligence, and applied systems where robustness and generalization matter. The selected publications below emphasize first-author contributions and collaborative work that support this trajectory.
+
+
+\begin{enumerate}[leftmargin=2.0cm, label=\Alph*.] 
+    \item  \textcolor{theme2}{ \small{\textit{Journal Articles}} }
+\end{enumerate}
+
+\newbibliography{journal}
+\bibliographystyle{journal}{plainyrrev}
+\nocite{journal}{*}
+\bibliography{journal}{journal}
+{\large \textsc{Refereed Journal Articles}}
+
+% \begin{minipage}{.45\linewidth}
+%     \begin{flushleft}
+%     \end{flushleft}
+%   \end{minipage}
+%   \hfill
+%   \begin{minipage}{.45\linewidth}
+%     \begin{flushright}
+%     \small\textit{* Equal Contribution}
+%     \end{flushright} 
+%   \end{minipage}
+
+\begin{enumerate}[leftmargin=2.0cm, label=B.] 
+    \item  \textcolor{theme2}{ \small{\textit{International Conference Proceedings}}}
+\end{enumerate}
+\newbibliography{conference}
+\nocite{conference}{*}
+\bibliographystyle{conference}{plainyrrev}
+\bibliography{conference}{conference}
+{\large \textsc{Refereed Conference Publications}}
+
+\vspace{3em}
+
+\begin{enumerate}[leftmargin=2.0cm, label=C.] 
+    \item  \textcolor{theme2}{ \small{\textit{Manuscripts Under Review / In Press}}}
+\end{enumerate}
+\newbibliography{inpress}
+\nocite{inpress}{*}
+\bibliographystyle{inpress}{plainyrrev}
+\bibliography{inpress}{inpress}
+{\large \textsc{Manuscripts Under Review / In Press}}
+
+\section{Patents}
+\cventry{2023}{No.C-2023-051898}{Korea Alpha System Co., Ltd, Rammohan Mallipeddi, Oladayo S. Ajani, \textbf{Daison Darlan}, and Dzeuban Fenyom Ivan }{}{Anomalous Vehicle Detection and Alerting System using CCTV Camera Network. November, 2023}{}
+
+%----------------------------------------------------------------------------------------
+%	Fellowships \& Awards
+%----------------------------------------------------------------------------------------
+
+\section{Fellowships and Awards}
+
+\cvitem{2025}{\textbf{G-KNU Academic Scholarship}, 100\% tuition waiver, Kyungpook National University.}
+\cvitem{2022--2024}{\textbf{KINGS Academic Scholarship}, 100\% tuition waiver, Kyungpook National University.}
+\cvitem{2022--2023}{\textbf{Brain Korea 21 Fellowship}, National Research Foundation of Korea.}
+\cvitem{2018--2019}{\textbf{Academic Scholarship}, 50\% tuition waiver, Amity University.}
+\cvitem{2017--2018}{\textbf{Academic Scholarship}, 100\% tuition waiver, Amity University.}
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE SECTION
+%---------------------------------------------------------------------------------------
+
+\section{Teaching and Mentoring}
+
+Mentored junior collaborators in research coding, experimental design, and manuscript preparation. Supported undergraduate and graduate students as a Graduate Teaching Assistant in core artificial intelligence subjects.
+
+\vspace{0.5em}
+\cvitem{Fall 2025}{Deep Learning}
+\cvitem{Spring 2024}{Reinforcement Learning 101}
+\cvitem{Fall 2023}{Mathematics for AI 102}
+\cvitem{Spring 2023}{Mathematics for AI 101}
+
+
+\section{Technical and Methodological Expertise}
+
+\cvitem{Adaptive AI and Optimization}{
+Designing optimization-driven learning systems for constrained, multi-objective, and uncertain environments, including evolutionary algorithms, reinforcement learning, and adaptive search mechanisms.
+}
+
+\cvitem{Bio-inspired Learning}{
+Translating biological principles such as regulation, memory, and representation into computational frameworks for adaptive intelligence and neural data analysis.
+}
+
+\cvitem{Applied AI}{
+Building and evaluating deep learning systems for autonomous planning, biomedical AI, visual recognition, tracking, pose analysis, agriculture, and human-centered technologies.
+}
+
+\cvitem{Research Software}{
+Developing reproducible research code in Python, MATLAB, and C++; designing experiments, automating training pipelines, and producing publication-quality analysis .
+}
+
+\section{Academic Service}
+
+\cvitem{Peer Review\\({\textcolor{theme1}{\href{https://orcid.org/0000-0002-9185-9704}{\textit{ORCiD}}}})}
+{Contribute to academic peer review across artificial intelligence, evolutionary computation, optimization, and engineering systems, including reviews for \textit{Engineering Applications of Artificial Intelligence}, \textit{Swarm and Evolutionary Computation}, \textit{Information Sciences}, \textit{Computers and Electrical Engineering}, and \textit{IEEE Transactions on Systems, Man, and Cybernetics} among others.}
+% {Serve as a reviewer for \textit{Engineering Applications of Artificial Intelligence}, \textit{Swarm and Evolutionary Computation}, \textit{Information Sciences}, \textit{Computers and Electrical Engineering}, and \textit{IEEE Transactions on Systems, Man, and Cybernetics}.}
+
+% \section{Research Interests}
+% \cvitem{NeuroAI}{Neuro-inspired learning, continual learning, and biologically grounded adaptive systems.}
+% \cvitem{Evolutionary Optimization}{Multi-objective and constrained evolutionary algorithms, domain-specific operators, and hybrid optimization.}
+% \cvitem{Reinforcement Learning}{Sequential decision-making, environment design, and continual learning integration.}
+% \cvitem{Computer Vision}{2D and 3D visual learning, including detection, tracking, and representation learning.}
+% \cvitem{Synthetic Data}{Simulation-driven dataset creation for data-sparse and controlled experimental settings.}
+% %----------------------------------------------------------------------------------------
+% %	Position of Responsibility SECTION
+% %----------------------------------------------------------------------------------------
+
+
+% \section{Referees}
+
+% \begin{tabular}{lr}
+% % Referee 1
+% \begin{minipage}[t]{3in}
+% \textbf{Prof. Rammohan Mallipeddi}\\
+% \textit{Academic Supervisor, School of} \\
+% \textit{Artificial Intelligence}\\
+% Kyungpook National University, South Korea.\\
+% \Letter\ \href{mailto:mallipeddi@knu.ac.kr}{mallipeddi@knu.ac.kr}
+% \end{minipage}
+% &\\ \\
+
+% % Referee 2
+% \begin{minipage}[t]{3.5in}
+% \textbf{Dr. Oladayo S. Ajani}\\
+% \textit{Research Professor, School of Computer} \\
+% \textit{Science and Engineering}\\
+% Kyungpook National University, South Korea.\\
+% \Letter\ \href{mailto:oladayosolomon@knu.ac.kr}{oladayosolomon@knu.ac.kr}
+% \end{minipage}
+% &
+% \\ \\
+
+% % Referee 3
+% \begin{minipage}[t]{3.5in}
+% \textbf{Prof. Anand Paul}\\
+% \textit{Professor, Biostatistics and Data} \\
+% \textit{Science Department}\\
+% Louisiana State University HSC, New Orleans, USA.\\
+% \Letter\ \href{mailto:apaul4@lsuhsc.edu}{apaul4@lsuhsc.edu}
+% \end{minipage}
+% &\\ \\
+
+% % Referee 4
+% \begin{minipage}[t]{3.5in}
+% \textbf{Dr. Abhishek Puthenveetil, M.D., Ph.D.}\\
+% \textit{Postdoctoral Researcher, Kennedy Institute} \\
+% \textit{of Rheumatology}\\
+% University of Oxford.\\
+% \Letter\ \href{mailto:abhishek.puthenveetil@kennedy.ox.ac.uk}{abhishek.puthenveetil@kennedy.ox.ac.uk}
+% \end{minipage}
+
+% \end{tabular}
+
+
+\end{document}
+
