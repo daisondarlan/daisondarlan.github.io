@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-06'
+  last_updated: '2026-07-08'
 papers:
   h_TVJTIAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -46,7 +46,7 @@ papers:
     title: EEG-Based Emotion Classification Through Multi-Objective Hyperparameter Search
     year: '2024'
   h_TVJTIAAAAJ:YsMSGLbcyi4C:
-    citations: 21
+    citations: 22
     title: A multi-objective benchmark for UAV path planning with baseline results
     year: '2025'
   h_TVJTIAAAAJ:_FxGoFyzp5QC:
