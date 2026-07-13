@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-08'
+  last_updated: '2026-07-13'
 papers:
   h_TVJTIAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -50,7 +50,7 @@ papers:
     title: A multi-objective benchmark for UAV path planning with baseline results
     year: '2025'
   h_TVJTIAAAAJ:_FxGoFyzp5QC:
-    citations: 1
+    citations: 2
     title: Multi-Objective Optimization of Large Language Model Summaries for Clinical Text Narratives
     year: '2026'
   h_TVJTIAAAAJ:d1gkVwhDpl0C:
