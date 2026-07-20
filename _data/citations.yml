@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-13'
+  last_updated: '2026-07-20'
 papers:
   h_TVJTIAAAAJ:2osOgNQ5qMEC:
     citations: 2
@@ -26,7 +26,7 @@ papers:
     title: Benchmarking Covariance Matrix Evolution Strategies on Autonomous Parking Navigation
     year: '2024'
   h_TVJTIAAAAJ:UeHWp8X0CEIC:
-    citations: 5
+    citations: 6
     title: Multi-indicator based multi-objective evolutionary algorithm with application to neural architecture search
     year: '2024'
   h_TVJTIAAAAJ:UebtZRa9Y70C:
@@ -46,7 +46,7 @@ papers:
     title: EEG-Based Emotion Classification Through Multi-Objective Hyperparameter Search
     year: '2024'
   h_TVJTIAAAAJ:YsMSGLbcyi4C:
-    citations: 22
+    citations: 23
     title: A multi-objective benchmark for UAV path planning with baseline results
     year: '2025'
   h_TVJTIAAAAJ:_FxGoFyzp5QC:
@@ -66,7 +66,7 @@ papers:
     title: 'A3FUS-Net: Towards automated Renal Cell Carcinoma grading system via advanced adaptive attention mechanism aided deep learning fusion'
     year: '2026'
   h_TVJTIAAAAJ:qjMakFHDy7sC:
-    citations: 11
+    citations: 12
     title: 'Deep reinforcement learning as multiobjective optimization benchmarks: Problem formulation and performance assessment'
     year: '2024'
   h_TVJTIAAAAJ:roLk4NBRz8UC:
